@@ -1,0 +1,27 @@
+:root {
+  --font-family: 'Heebo';
+  --color-primary: #ff6464;
+  --color-secondary: #00a8cc;
+  --color-bg-accent: #ff7c7c;
+  --color-bg: #edf7fa;
+  --color-light: #ffffff;
+  --color-dark: #000000;
+  --color-dark-text: #21243d;
+  --color-light-text: #8695a4;
+
+  --font-weight-bold: 900;
+  --font-weight-semibold: 700;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+
+  --font-size-xs: 14px;
+  --font-size-sm: 16px;
+  --font-size-md: 18px;
+  --font-size-lg: 20px;
+  --font-size-xl: 22px;
+  --font-size-2xl: 26px;
+  --font-size-3xl: 30px;
+  --font-size-4xl: 32px;
+  --font-size-5xl: 36px;
+  --font-size-bg: 44px;
+}

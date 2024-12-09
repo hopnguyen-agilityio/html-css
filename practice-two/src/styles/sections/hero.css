@@ -1,0 +1,136 @@
+.hero {
+  font-family: var(--font-family);
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  padding: 33px 23px 58px 24px;
+}
+
+.hero-image {
+  justify-content: center;
+  align-items: center;
+  width: 174.38px;
+  margin-bottom: 34px;
+  display: flex;
+  position: relative;
+}
+
+.profile-image {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 170.86px;
+  height: 170.86px;
+}
+
+.overlay {
+  background-color: var(--color-bg);
+  z-index: -1;
+  border-radius: 50%;
+  width: 170.86px;
+  height: 170.86px;
+  position: absolute;
+  top: 13px;
+  right: 5px;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-4xl);
+  margin-bottom: 21px;
+  line-height: 40px;
+}
+
+.hero-description {
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-sm);
+  margin-bottom: 27px;
+  line-height: 23.5px;
+}
+
+.hero-btn {
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-lg);
+  padding: 9px 21px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 90px 18px 50px;
+    display: flex;
+  }
+
+  .hero-image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    position: static;
+  }
+
+  .overlay {
+    width: 200px;
+    height: 200px;
+  }
+
+  .hero-content {
+    text-align: left;
+  }
+
+  .hero-title {
+    font-size: var(--font-size-5xl);
+    width: 400px;
+    margin-bottom: 30px;
+    line-height: 50px;
+  }
+
+  .hero-description {
+    width: 390px;
+    height: auto;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero {
+    gap: 55px;
+    padding: 130px 87px 71px;
+  }
+
+  .hero-image {
+    width: 243px;
+    height: 243px;
+  }
+
+  .profile-image {
+    width: 243px;
+    height: 243px;
+  }
+
+  .overlay {
+    width: 243px;
+    height: 243px;
+  }
+
+  .hero-title {
+    font-size: var(--font-size-bg);
+    width: 506px;
+    margin-bottom: 35px;
+    line-height: 60px;
+  }
+
+  .hero-description {
+    width: 497px;
+    height: auto;
+    margin-bottom: 33px;
+  }
+}
